@@ -1,8 +1,6 @@
 ﻿using Mercado.Menus;
 using Mercado.Modelos;
 
-Produto manteiga = new Produto("Cafe");
-
 Dictionary<string, List<int>> produtosRegistrados = new();
 produtosRegistrados.Add("Manteiga", new List<int> { 10, 10 });
 produtosRegistrados.Add("Leite", new List<int> { 15 });

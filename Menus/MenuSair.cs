@@ -5,6 +5,7 @@
         public override void Executar(Dictionary<string, List<int>> produtosRegistrados)
         {
             Console.WriteLine("Portas Fechadas :)");
+
         }
     }
 }

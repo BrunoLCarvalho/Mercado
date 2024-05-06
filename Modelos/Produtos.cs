@@ -6,14 +6,14 @@ internal class Produto
         Nome = nome;
 
     }
-    public string Nome { get; }
-    public int CodBarras { get; }
-    public double Preco { get; }
+    public string Nome { get; set; }
+    public int CodBarras { get; set; }
+    public double Preco { get; set; }
     
 
-    override public string ToString()
-    {
-        return $"Nome: {Nome}, Código de Barras: {CodBarras}, Valor Unitario: {Preco}.";
-    }
+    //override public string ToString()
+    //{
+    //    return $"Nome: {Nome}, Código de Barras: {CodBarras}, Valor Unitario: {Preco}.";
+    //}
 
 }
